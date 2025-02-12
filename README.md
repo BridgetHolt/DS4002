@@ -17,11 +17,13 @@
 - **Data Folder**
   - **Uncleaned Individual Data**
     - csvs for each product scraped (18 total)
-  - Combined clean csv
+  - combined_clean_data.csv - cleaned csv containing all product data 
  
 - **Scripts**
+  - 1_CleaningData.ipynb - first script including data cleaning processes
 
 - **Output**
+  - References.md - includes references for product data and intial research on topics + VADER package
     
 ## Instructions for Reproducing the Results
 In this section, you should give explicit step-by-step instructions for using the documentation in your Project/ folder to reproduce the Results of your study. These instructions should be written in straightforward plain English, but they must be detailed and precise enough to make it possible for an interested user to reproduce your Results without undue difficulty.
