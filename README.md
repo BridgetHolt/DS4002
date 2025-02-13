@@ -7,22 +7,26 @@
   - *pandas* - for data manipulation and cleaning
   - *VADER Sentiment Anaylsis* - to perform sentiment anaylsis on review text
   - *matplotlib* - to create data visualizations
+  - *seaborn* - another visualization tool
   - *wordcloud* - to create word clouds of string/text data from reviews
-  - *seaborn* - visualization tool
   - *os* - operating system module
+  - *numpy* - numerical computation
 - **Tools**:
   - *Web Scraper Chrome Extension* - to extract and scrape review data from Sephora's website
-
 
 ## Map of Documentation
 
 - **Data Folder**
   - **Uncleaned Individual Data**
     - csvs for each product scraped (18 total)
+  - **Cleaned Individual Data**
+    - cleaned csvs for each product scraped - output from Script 1 (18 total)
   - combined_clean_data.csv - cleaned csv containing all product data 
  
 - **Scripts**
-  - 1_CleaningData.ipynb - first script including data cleaning processes
+  - 1_CleaningData.ipynb - first script including data cleaning processes for each inididual product data
+    - Output: Cleaned Individual Data
+  - 2_
 
 - **Output**
   - References.md - includes references for product data and intial research on topics + VADER package
