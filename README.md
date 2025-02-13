@@ -5,12 +5,13 @@
 - **Development Environment**: Google Colab
 - **Libraries and Packages Used**:
   - *pandas* - for data manipulation and cleaning
-  - *VADER Sentiment Anaylsis* - to perform sentiment anaylsis on review text
+  - *VADER Sentiment Analysis* - to perform sentiment analysis on review text
   - *matplotlib* - to create data visualizations
   - *seaborn* - another visualization tool
   - *wordcloud* - to create word clouds of string/text data from reviews
   - *os* - operating system module
   - *numpy* - numerical computation
+  - *sklearn* - includes machine learning tools, such as regression and vectorization
 - **Tools**:
   - *Web Scraper Chrome Extension* - to extract and scrape review data from Sephora's website
 
