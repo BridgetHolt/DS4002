@@ -8,7 +8,8 @@
   - *VADER Sentiment Anaylsis* - to perform sentiment anaylsis on review text
   - *matplotlib* - to create data visualizations
   - *wordcloud* - to create word clouds of string/text data from reviews
-  - *seaborn* - 
+  - *seaborn* - visualization tool
+  - *os* - operating system module
 - **Tools**:
   - *Web Scraper Chrome Extension* - to extract and scrape review data from Sephora's website
 
