@@ -43,6 +43,8 @@
   - Sentiment Distrubtion of Celebrity vs. Non-Celebrity Makeup Brands Violin Plot.png
   -  Sentiment Polarization by Celebrity vs. Non-Celebrity Brands Boxplot.png
   - References.md - includes references for product data and intial research on topics + VADER package
+  - WordCloudOriginal.png
+  - WordCloud_Negative_and_Positive.png
     
 ## Instructions for Reproducing the Results
 1. Clean data found in /DATA/Uncleaned Individual Data folder with script 1_CleaningData.ipynb (repeat for each uncleaned data csv)
