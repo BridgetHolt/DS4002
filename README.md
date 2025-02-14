@@ -33,7 +33,7 @@
   - 3_Variance_and_DistributionTest.ipynb - script running statistical tests (Levene's and Mann-Whitney U) to test variance and distribution of celebrity and non-celebrity compound sentiment scores
   - 4_EDA_Plots.ipynb - script to create visualizations to understand compound sentiment anaylsis scores distributions
     - Output: Distribution of Compound Sentiment Scores Bar Graph.png, Sentiment (Positive, Neutral, Negative) by Brand Type Bar Graph.png, Sentiment Distribution by Makeup Brand Violin Plot.png, Sentiment Distrubtion of Celebrity vs. Non-Celebrity Makeup Brands Violin Plot.png, Sentiment Polarization by Celebrity vs. Non-Celebrity Brands Boxplot.png
-  - 5_ **ADD WORD CLOUD HERE**
+  - 5_WordCloud_Analysis.ipynb - script to visualize key words in negative/positive and celebrity/non-celebrity product reviews
   - 6_Logistic_Regression.ipynb - script for analysing logistic regression
 
 - **Output**
@@ -49,6 +49,6 @@
 2. Combine data and perform VADER sentiment anaylsis with 2_Combination_VADER_Anaylsis.ipynb
 3. Compute statistical tests to determine if celebrity and non-celebrity sentiment scores are significantly varianced and distributed
 4. Create explority data anaylsis with 4_EDA_Plots.ipynb to create visualizations of data distributions
-5. Visualize key words with **ADD WORDCLOUD HERE**
+5. Visualize key words with 5_WordCloud_Analysis.ipynb
 6. Analyze data through logistical regression with 6_Logistic_Regression.ipynb
 7. Make conclusions about data and compare finding against hypothesis
