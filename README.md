@@ -12,6 +12,7 @@
   - *os* - operating system module
   - *numpy* - numerical computation
   - *sklearn* - includes machine learning tools, such as regression and vectorization
+  - *scipy.stats* - statistical tests - includes Levene's and Mann-Whitney U
 - **Tools**:
   - *Web Scraper Chrome Extension* - to extract and scrape review data from Sephora's website
 
