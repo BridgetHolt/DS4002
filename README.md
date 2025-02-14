@@ -27,12 +27,27 @@
 - **Scripts**
   - 1_CleaningData.ipynb - first script including data cleaning processes for each inididual product data
     - Output: Cleaned Individual Data
-  - 2_
+  - 2_Combination_VADER_Anaylsis.ipynb - script combined clean data and initial VADER anaylsis
+    -Output: combined_clean_data.csv
+  - 3_Variance_and_DistributionTest.ipynb - script running statistical tests (Levene's and Mann-Whitney U) to test variance and distribution of celebrity and non-celebrity compound sentiment scores
+  - 4_EDA_Plots.ipynb - script to create visualizations to understand compound sentiment anaylsis scores distributions
+    - Output: Distribution of Compound Sentiment Scores Bar Graph.png, Sentiment (Positive, Neutral, Negative) by Brand Type Bar Graph.png, Sentiment Distribution by Makeup Brand Violin Plot.png, Sentiment Distrubtion of Celebrity vs. Non-Celebrity Makeup Brands Violin Plot.png, Sentiment Polarization by Celebrity vs. Non-Celebrity Brands Boxplot.png
+  - 5_ **ADD WORD CLOUD HERE**
+  - 6_Logistic_Regression.ipynb - script for analysing logistic regression
 
 - **Output**
+  - Distribution of Compound Sentiment Scores Bar Graph.png
+  - Sentiment (Positive, Neutral, Negative) by Brand Type Bar Graph.png
+  - Sentiment Distribution by Makeup Brand Violin Plot.png
+  - Sentiment Distrubtion of Celebrity vs. Non-Celebrity Makeup Brands Violin Plot.png
+  -  Sentiment Polarization by Celebrity vs. Non-Celebrity Brands Boxplot.png
   - References.md - includes references for product data and intial research on topics + VADER package
     
 ## Instructions for Reproducing the Results
-In this section, you should give explicit step-by-step instructions for using the documentation in your Project/ folder to reproduce the Results of your study. These instructions should be written in straightforward plain English, but they must be detailed and precise enough to make it possible for an interested user to reproduce your Results without undue difficulty.
-
-**N.B. This section will be crucial for the CS1 assignment, where you'll be required to reproduce the results of other groups. Therefore, make sure to explain this section thoroughly.**
+1. Clean data found in /DATA/Uncleaned Individual Data folder with script 1_CleaningData.ipynb (repeat for each uncleaned data csv)
+2. Combine data and perform VADER sentiment anaylsis with 2_Combination_VADER_Anaylsis.ipynb
+3. Compute statistical tests to determine if celebrity and non-celebrity sentiment scores are significantly varianced and distributed
+4. Create explority data anaylsis with 4_EDA_Plots.ipynb to create visualizations of data distributions
+5. Visualize key words with **ADD WORDCLOUD HERE**
+6. Analyze data through logistical regression with 6_Logistic_Regression.ipynb
+7. Make conclusions about data and compare finding against hypothesis
